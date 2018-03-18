@@ -1,0 +1,40 @@
+
+a  {
+	color: #117095;
+}
+
+h2.title {
+    color:  #117095;
+}
+.social-media a {
+	background: #117095;
+}
+.menu-base-theme li a:hover, .menu-base-theme li a:focus, .menu-base-theme li a:active, .menu-base-theme li a.highlighted {
+	color: #3a9bbe;
+}
+.copyright {
+	background: #117095;
+}
+
+.footer-menu {
+	background: url('../images/Contact_background.jpg');
+	background-size: cover;
+}
+
+.main-header {
+	background: #ffffff;
+}
+
+.region-primary-menu li a {
+	color: #117095;
+}
+
+.region-primary-menu li.active a {
+	color: #117095;
+}
+
+#about,
+#services {
+	background: url('../images/Contact_background.jpg');
+	background-size: cover;
+}

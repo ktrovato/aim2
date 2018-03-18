@@ -1,0 +1,52 @@
+/**
+ * Place your custom styles here.
+ */
+main-container,
+.page-header {
+   padding: 0px;
+}
+
+.parallax__content {
+   text-align: center;
+   padding: 10em;
+   font-size: 20px;
+   background-color: #204d74;
+   color: #fff;
+}
+
+.parallax {
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+   height: 500px;
+}
+
+.parallax__bg {
+   position: absolute;
+   width: 100%;
+   height: 140%;
+}
+
+.parallax--parallax1 .parallax__bg {
+   background: url('../images/Drone_slide.jpg');
+}
+
+.parallax--parallax2 .parallax__bg  {
+   background: url('../images/Drone_slide.jpg');
+}
+
+.parallax__content {
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   color: #fff;
+   h2 {
+     margin: 0px;
+     font-size: 30px;
+   }
+   p {
+     font-size: 20px;
+   }
+}

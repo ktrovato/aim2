@@ -1,0 +1,15 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+  js:
+    js/ScrollMagic.min.js: {}
+    js/animation.gsap.min.js: {}
+    js/TweenMax.min.js: {}
+    js/parallax.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+   
